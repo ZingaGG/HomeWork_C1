@@ -54,10 +54,10 @@ System.Console.WriteLine(" ");
 System.Console.WriteLine("Task 4: ");
 System.Console.WriteLine("a = " + a);
 
-int temp = a;
+int temp = 2;
 
-while (temp != 0)
+while (temp != a+2)
 {
     Console.Write(temp + " ");
-    temp -= 2;
+    temp += 2;
 }
