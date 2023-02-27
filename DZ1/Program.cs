@@ -46,4 +46,18 @@ if (a % 2 == 0)
 else
 {
     System.Console.WriteLine("Число a нечетное!");
+    a = a-1;
+}
+
+// Задание 4
+System.Console.WriteLine(" ");
+System.Console.WriteLine("Task 4: ");
+System.Console.WriteLine("a = " + a);
+
+int temp = a;
+
+while (temp != 0)
+{
+    Console.Write(temp + " ");
+    temp -= 2;
 }
