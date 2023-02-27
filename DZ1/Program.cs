@@ -35,3 +35,15 @@ else
     System.Console.WriteLine("Maximum = " + max);
 }
 
+// Задание 3 
+System.Console.WriteLine(" ");
+System.Console.WriteLine("Task 3: ");
+System.Console.WriteLine("a = " + a);
+if (a % 2 == 0)
+{
+    System.Console.WriteLine("Число a четное!");
+}
+else
+{
+    System.Console.WriteLine("Число a нечетное!");
+}
